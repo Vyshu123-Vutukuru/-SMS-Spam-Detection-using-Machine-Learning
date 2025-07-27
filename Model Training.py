@@ -1,0 +1,1 @@
+model = MultinomialNB()model.fit(X_train, y_train)predictions = model.predict(X_test)print("Accuracy:", accuracy_score(y_test, predictions))print(classification_report(y_test, predictions))
